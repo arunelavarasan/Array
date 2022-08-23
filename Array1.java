@@ -3,11 +3,8 @@ package Array;
 public class Array1 {
 
 	public static void main(String arg[]) {
-		int n = 9;
-		for(int i = 1; i<=9 ; i++)
-		{
-			n = n*(n-i);
-			System.out.println(n);
-		}
+		int [] a = {1,3,5,7};
+		System.out.println(a);
+		System.out.println(a[2]);
 	}
 }
